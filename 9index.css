@@ -37,7 +37,7 @@
 }
 @media screen  and (min-width:375px) and (max-width:425px) {
   #box1{
-    background-image: url(../../ASSERTS/IMAGES/vaishali.jpg);
+    background-image: url(./vaishali.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 }
 @media screen and (min-width:426px) and (max-width:570px) {
   #box1{
-    background-image: url(../../ASSERTS/IMAGES/karanam\ malleswari.jpg);
+    background-image: url(./karanam\ malleswari.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,14 +57,14 @@
 }
 @media screen  and (min-width:375px)  and (max-width:425px) {
   #box2{
-    background-image: url(../../ASSERTS/IMAGES/saina\ nehwal.webp);
+    background-image: url(./saina\ nehwal.webp);
     background-position: center;
     background-size: cover;
   }
 }
 @media  screen and (min-width:426px) and (max-width:570px) {
   #box2{
-    background-image: url(../../ASSERTS/IMAGES/pv\ sindhu.jpg);
+    background-image: url(./pv\ sindhu.jpg);
     background-position: center;
     background-size: cover;
   }
