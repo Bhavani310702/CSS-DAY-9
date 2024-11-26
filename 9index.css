@@ -1,0 +1,71 @@
+#box {
+  border: 2px solid purple;
+  width: 200px;
+  height: 250px;
+  display: flex;
+ flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+@media screen and (min-width: 0px) and (max-width: 250px) {
+  #box {
+    background-image: url(https://i.pinimg.com/736x/5c/f3/b2/5cf3b2b3f8534cf95b03914ab3e78157.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 251px) and (max-width: 700px) {
+  #box {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2M01jFzNCpVpLN5YXwuMyatCzmL6X7So59w&s);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 370px) {
+  #box {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqLGxJIRxdyhoRdt8Cz-iEJUf3fVPEqnWscg&s);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+  } 
+}
+#box1{
+  height: 250px;
+  width: 200px;
+}
+@media screen  and (min-width:375px) and (max-width:425px) {
+  #box1{
+    background-image: url(../../ASSERTS/IMAGES/vaishali.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width:426px) and (max-width:570px) {
+  #box1{
+    background-image: url(../../ASSERTS/IMAGES/karanam\ malleswari.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } 
+}
+#box2{
+  height: 250px;
+  width: 200px;
+}
+@media screen  and (min-width:375px)  and (max-width:425px) {
+  #box2{
+    background-image: url(../../ASSERTS/IMAGES/saina\ nehwal.webp);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media  screen and (min-width:426px) and (max-width:570px) {
+  #box2{
+    background-image: url(../../ASSERTS/IMAGES/pv\ sindhu.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
