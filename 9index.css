@@ -6,6 +6,9 @@
  flex-direction: column;
   gap: 10px;
   padding: 30px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThn5HzoDXheNS4JK3NY3y6Ol9olSljE8DtPA&s);
+  background-position: center;
+  background-size: cover;
 }
 @media screen and (min-width: 0px) and (max-width: 250px) {
   #box {
